@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89767BAF19E89F19000207D4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 89767BAE19E89F19000207D4 /* README.md */; };
 		89AC743719E86BEE00544F86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89AC743619E86BEE00544F86 /* Foundation.framework */; };
 		89AC743919E86BEE00544F86 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89AC743819E86BEE00544F86 /* CoreGraphics.framework */; };
 		89AC743B19E86BEE00544F86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89AC743A19E86BEE00544F86 /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		89767BAE19E89F19000207D4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		89AC743319E86BEE00544F86 /* MyLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89AC743619E86BEE00544F86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		89AC743819E86BEE00544F86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,6 +87,7 @@
 		89AC742A19E86BEE00544F86 = {
 			isa = PBXGroup;
 			children = (
+				89767BAE19E89F19000207D4 /* README.md */,
 				89AC743C19E86BEE00544F86 /* MyLocation */,
 				89AC745B19E86BEE00544F86 /* MyLocationTests */,
 				89AC743519E86BEE00544F86 /* Frameworks */,
@@ -234,6 +237,7 @@
 			files = (
 				89AC744F19E86BEE00544F86 /* Images.xcassets in Resources */,
 				89AC744119E86BEE00544F86 /* InfoPlist.strings in Resources */,
+				89767BAF19E89F19000207D4 /* README.md in Resources */,
 				89AC744A19E86BEE00544F86 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +464,7 @@
 				89AC746719E86BEE00544F86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89AC746819E86BEE00544F86 /* Build configuration list for PBXNativeTarget "MyLocationTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				89AC746A19E86BEE00544F86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,1 @@
+App gets user's current location and address using Core Location Framework
