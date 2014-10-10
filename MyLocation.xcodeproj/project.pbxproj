@@ -21,6 +21,7 @@
 		89AC745819E86BEE00544F86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89AC743A19E86BEE00544F86 /* UIKit.framework */; };
 		89AC746019E86BEE00544F86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89AC745E19E86BEE00544F86 /* InfoPlist.strings */; };
 		89AC746219E86BEE00544F86 /* MyLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AC746119E86BEE00544F86 /* MyLocationTests.m */; };
+		89AC746C19E86F1000544F86 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89AC746B19E86F1000544F86 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		89AC745D19E86BEE00544F86 /* MyLocationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyLocationTests-Info.plist"; sourceTree = "<group>"; };
 		89AC745F19E86BEE00544F86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		89AC746119E86BEE00544F86 /* MyLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLocationTests.m; sourceTree = "<group>"; };
+		89AC746B19E86F1000544F86 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89AC746C19E86F1000544F86 /* CoreLocation.framework in Frameworks */,
 				89AC743919E86BEE00544F86 /* CoreGraphics.framework in Frameworks */,
 				89AC743B19E86BEE00544F86 /* UIKit.framework in Frameworks */,
 				89AC743719E86BEE00544F86 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		89AC743519E86BEE00544F86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				89AC746B19E86F1000544F86 /* CoreLocation.framework */,
 				89AC743619E86BEE00544F86 /* Foundation.framework */,
 				89AC743819E86BEE00544F86 /* CoreGraphics.framework */,
 				89AC743A19E86BEE00544F86 /* UIKit.framework */,
